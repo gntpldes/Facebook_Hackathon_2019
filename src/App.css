@@ -1,22 +1,53 @@
-.App {
+*{
+  margin: 0; 
+  padding: 0;
+}
+/*
+  Top of Page
+*/
+.Header{
+  position: absolute;
+  background: #74b9ff; 
+  top: 0;
+  height: 10vh;
+  width: 100vw;
+}
+
+.Header h1{
+  color: #ff3f34; 
+  text-align: center;
+  margin-top: 1vh; 
+  text-shadow: #ff3f34 1px 1px;
+}
+
+/*
+  Event Boxes
+*/
+
+.EBox{ 
+  position: relative;
+  margin: 10vw;
+  border: .5vh solid black;
+  opacity: .7;
+  border-radius: 20px;
+  height: 30vh;
+  width: 80vw;
+}
+
+/*
+  Base of the Page
+*/
+.Base{
+  position: absolute;
+  bottom: 0;
+  height: 10vh;
+  width: 100vw;
+  background: #74b9ff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.Base h1{
+  margin-top: 1vh;
+  color: #ff3f34; 
+  text-shadow: #ff3f34 1px 1px;
 }
