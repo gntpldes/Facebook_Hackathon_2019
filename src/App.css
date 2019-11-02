@@ -43,7 +43,7 @@
   position: relative;
   margin: 10vw;
   border: .5vh solid black;
-  opacity: .7;
+  color: black;
   border-radius: 20px;
   height: 40vh;
   width: 80vw;
@@ -59,9 +59,19 @@
   top: 50%;
 }
 
-.Btn{
-  height: 4vh;
-  width: 8vw;
+.PDisp{ 
+  position: absolute;
+  float: right;
+  margin-left: 50vw;
+  bottom: 10vh;
+}
+.PDisp hr{
+  height: 2px;
+  background: #74b9ff;
+  width: 20vw;
+}
+.PDisp ul li{
+  list-style: none;
 }
 
 /*
