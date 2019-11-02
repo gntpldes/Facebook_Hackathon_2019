@@ -8,3 +8,5 @@ const PfPic = () => {
         </div>
     );
 }
+
+export default PfPic; 
