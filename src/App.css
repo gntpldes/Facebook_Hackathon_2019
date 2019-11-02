@@ -49,14 +49,11 @@
   width: 80vw;
 }
 
-.PfPic{
-  position: relative;
-  height: 30vh; 
-  width: 30vw; 
-  border: 10px black; 
-  border-radius: 50%;
-  margin-top: 2vh; 
-  top: 50%;
+.PPic{
+  height: 20vh;
+  width: 10vw; 
+  padding-left: 10vw;
+  padding-top: 10vh;
 }
 
 .PDisp{ 

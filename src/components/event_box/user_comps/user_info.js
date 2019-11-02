@@ -1,7 +1,9 @@
 import React from 'react'; 
 
 
-const UserInfo = () => {
+class UserInfo extends React.Component {
+
+    render(){
     return(
         <div className="PDisp">
             <h1>User Name</h1>
@@ -17,6 +19,7 @@ const UserInfo = () => {
             </ul>
         </div>
     ); 
+    }
 }
 
 export default UserInfo; 
