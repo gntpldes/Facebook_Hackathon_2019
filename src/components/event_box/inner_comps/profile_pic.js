@@ -2,7 +2,7 @@ import React from 'react';
 const PfPic = () => {
     return(
         <div className="PfPic">
-            <img src="#" alt="#"></img>
+            <img src="#" alt="profile_pic"></img>
         </div>
     );
 }

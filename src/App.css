@@ -78,7 +78,7 @@
   Base of the Page
 */
 .Base{
-  position: absolute;
+  position: fixed;
   bottom: 0;
   height: 10vh;
   width: 100vw;
