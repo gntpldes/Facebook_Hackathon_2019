@@ -2,8 +2,8 @@ import React from 'react';
 
 const Logout = () => {
     return(
-        <div className="Btn">
-            <button>
+        <div>
+            <button className="Button">
                 Logout
             </button>
         </div>

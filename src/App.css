@@ -21,6 +21,20 @@
   text-shadow: #ff3f34 1px 1px;
 }
 
+.Button{
+  position: absolute;
+  color: #ff3f34;
+  background: #74b9ff;
+  margin-left: 85vw;
+  top: 1vh;
+  height: 8vh;
+  width: 10vw;
+}
+.Button :hover{
+  background: #ff3f34;
+  color: #74b9ff;
+}
+
 /*
   Event Boxes
 */
@@ -36,13 +50,13 @@
 }
 
 .PfPic{
+  position: relative;
   height: 30vh; 
   width: 30vw; 
-  border: 1px black; 
+  border: 10px black; 
   border-radius: 50%;
   margin-top: 2vh; 
-  align-content: center;
-  top: 50vh;
+  top: 50%;
 }
 
 .Btn{

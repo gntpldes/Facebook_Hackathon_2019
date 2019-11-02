@@ -3,9 +3,11 @@ import React from 'react';
 
 const Login = () => {
     return(
-        <div className="Btn">
-            <button>
-                Login
+        <div>
+            <button className="Button">
+                <h1>
+                    Login
+                </h1>
             </button>
         </div>
     ); 
